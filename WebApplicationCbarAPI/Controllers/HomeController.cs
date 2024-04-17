@@ -13,6 +13,7 @@ namespace WebApplicationCbarAPI.Controllers
         [Route("AllCurrency")]
         public ActionResult GetAllCurrency()
         {
+            //Test
             var date = DateTime.Now.ToString("dd.MM.yyyy");
             var lst = new List<ServiceFields>();
             var xmlDoc = new XmlDocument();
