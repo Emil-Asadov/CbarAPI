@@ -127,7 +127,6 @@ namespace WebApplicationCbarAPI.Controllers
             xmlDoc.Load(url);
             var currencyList = xmlDoc.GetElementsByTagName("ValType")[1];
             //var xmlList = xmlDoc.GetElementsByTagName("Valute");
-
             var cls = new ServiceFields();
             foreach (XmlNode item in currencyList)
             {
